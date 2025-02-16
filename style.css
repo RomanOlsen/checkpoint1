@@ -32,5 +32,11 @@ header {
 
 .magic-card {
   position: absolute;
-  top: 8em;
+  top: 40%;
 }
+
+.magic-card-spot {
+  min-height: 5em;
+}
+
+/* Was testing something, never used it ^ */
