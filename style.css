@@ -1,3 +1,27 @@
 .hero {
-  background-image: ;
+  background-image: url(SiteCloneHero.jpg);
+  background-size: cover;
+  min-height: 83vh;
+  background-position: center;
+  /* find a way to only center on mobile */
+  /* position: 10vh;  */
 }
+
+.tshadow {
+  text-shadow: 2px 2px #000000;
+}
+
+/* width 100% was all needed when just an image, not bg image */
+
+.raleway-normal {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  background-color: white;
+}
+
+/* Gives the Header/NavBar a color which makes StickyTop include this, not just the logo */
