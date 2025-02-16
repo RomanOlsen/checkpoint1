@@ -26,8 +26,8 @@
 
 <body>
   <!-- SECTION NavBar Start -->
-  <header class="sticky-top">
-    <div class="text-sm-start text-center p-5">
+  <header class="sticky-top shadow">
+    <div class="text-md-start text-center p-5">
       <!-- text-sm-start meaning it will be on left side of page for small screens and above, else will be centered thru text-center -->
       <img src="Logo.svg" width="175" alt="Ikea Ripoff">
     </div>
@@ -36,9 +36,9 @@
   <hero> <!-- SECTION hero-->
     <div class="container-fluid">
       <div class="row">
-        <div class="hero col-12 m-0 p-0 row justify-content-center justify-content-sm-start">
+        <div class="hero col-12 m-0 p-0 row justify-content-center justify-content-md-start">
           <!-- Justify content center outside of mobile sort of ruins it imo-->
-          <div class="col-12 col-sm-3 m-5 d-flex align-items-center">
+          <div class="col-12 col-md-3 m-5 d-flex align-items-center">
             <div class="card text-body-emphasis">
               <div class="card-header text-primary fw-bold">
                 Sign up for exclusive details
@@ -73,7 +73,7 @@
 
           <div class="d-flex align-items-center col-4 offset-1">
             <!-- Could also use offset-(number) instead of marginX -->
-            <div class="d-sm-block fw-bold d-none text-light text-start tshadow raleway-normal">
+            <div class="d-md-block fw-bold d-none text-light text-start tshadow raleway-normal">
 
               <h1 class="fw-bold">Check Out This Chair</h1>
               <!-- I am unsure why it makes me reapply fw-bold to the Heading but not P-tag -->
@@ -89,8 +89,53 @@
 
   <section> <!-- SECTION Here at site clone we're family -->
     <div class="container-fluid bg-primary">
-      <div class="row">
-        <div class="col-6 text-white raleway-normal m-5">
+      <div class="row m-0 p-0 magic-container">
+        <div class="d-md-none col-12 card mt-3 shadow text-body-emphasis raleway-normal">
+          <div>
+            <i class="fs-2 text-warning mdi mdi-wrench p-2"></i>
+            The best technical professionals in the field
+          </div>
+          <div>
+            <i class="fs-2 text-warning mdi mdi-car p-2"></i>
+            We drive our cars to work everyday
+          </div>
+          <div>
+            <i class="fs-2 text-warning mdi mdi-phone-in-talk p-2"></i>
+            Our office phones have psychic abilities
+          </div>
+          <div>
+            <i class="fs-2 text-warning mdi mdi-chart-bubble p-2"></i>
+            Bubble icon looks nice but what could it be used for?
+          </div>
+          <div>
+            <i class="fs-2 text-warning mdi mdi-lightning-bolt-circle p-2"></i>
+            A lightning icon to really define our power
+          </div>
+        </div>
+        <!-- NOTE I am well aware I created 2 different Cards to separate PC and mobile view. Im sure theres a way to simplify this but Im not sure how yet (when it comes to the spilling effect) -->
+        <div class="d-md-block d-none col-6 offset-6 card magic-card mt-3 shadow text-body-emphasis raleway-normal">
+          <div>
+            <i class="fs-2 text-warning mdi mdi-wrench p-2"></i>
+            The best technical professionals in the field
+          </div>
+          <div>
+            <i class="fs-2 text-warning mdi mdi-car p-2"></i>
+            We drive our cars to work everyday
+          </div>
+          <div>
+            <i class="fs-2 text-warning mdi mdi-phone-in-talk p-2"></i>
+            Our office phones have psychic abilities
+          </div>
+          <div>
+            <i class="fs-2 text-warning mdi mdi-chart-bubble p-2"></i>
+            Bubble icon looks nice but what could it be used for?
+          </div>
+          <div>
+            <i class="fs-2 text-warning mdi mdi-lightning-bolt-circle p-2"></i>
+            A lightning icon to really define our power
+          </div>
+        </div>
+        <div class="col-12 col-md-4 text-white raleway-normal m-5">
           <h2 class="fw-bold">
             Here at Site Clone, we're family
           </h2>
@@ -100,31 +145,14 @@
             iusto ad.
           </p2>
         </div>
-        <div class="col-6 card shadow text-body-emphasis raleway-normal">
-          <div>
-            <i class="fs-3 text-warning mdi mdi-wrench p-2"></i>
-            The best technical professionals in the field
-          </div>
-          <div>
-            <i class="fs-3 text-warning mdi mdi-car p-2"></i>
-            We drive our cars to work everyday
-          </div>
-          <div>
-            <i class="fs-3 text-warning mdi mdi-phone-in-talk p-2"></i>
-            Our office phones have psychic abilities
-          </div>
-          <div>
-            <i class="fs-3 text-warning mdi mdi-chart-bubble p-2"></i>
-            Bubble icon looks nice but what could it be used for?
-          </div>
-          <div>
-            <i class="fs-3 text-warning mdi mdi-lightning-bolt-circle p-2"></i>
-            A lightning icon to really define our power
-          </div>
-        </div>
+
       </div>
 
     </div>
+  </section>
+
+  <section>
+    <img src="https://m.media-amazon.com/images/I/817VI3DpflL._AC_UF894,1000_QL80_.jpg" alt="gamer chair">
   </section>
 
 </body>

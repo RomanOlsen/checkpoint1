@@ -25,3 +25,12 @@ header {
 }
 
 /* Gives the Header/NavBar a color which makes StickyTop include this, not just the logo */
+
+.magic-container {
+  position: relative;
+}
+
+.magic-card {
+  position: absolute;
+  top: 8em;
+}
