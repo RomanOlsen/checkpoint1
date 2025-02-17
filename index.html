@@ -91,7 +91,7 @@
     <div class="container-fluid bg-primary">
       <div class="row m-0 p-0 magic-container">
         <div class="d-md-none col-12 card mt-3 shadow text-body-emphasis raleway-normal">
-          <div>
+          <div class="pt-2">
             <i class="fs-2 text-warning mdi mdi-wrench p-2"></i>
             The best technical professionals in the field
           </div>
@@ -107,14 +107,14 @@
             <i class="fs-2 text-warning mdi mdi-chart-bubble p-2"></i>
             Bubble icon looks nice but what could it be used for?
           </div>
-          <div>
+          <div class="pb-3">
             <i class="fs-2 text-warning mdi mdi-lightning-bolt-circle p-2"></i>
             A lightning icon to really define our power
           </div>
         </div>
         <!-- NOTE I am well aware I created 2 different Cards to separate PC and mobile view. Im sure theres a way to simplify this but Im not sure how yet (when it comes to the spilling effect) I think maybe media rule? -->
         <div class="d-md-block d-none col-6 offset-6 card magic-card mt-3 shadow text-body-emphasis raleway-normal">
-          <div>
+          <div class="pt-2">
             <i class="fs-2 text-warning mdi mdi-wrench p-2"></i>
             The best technical professionals in the field
           </div>
@@ -130,7 +130,7 @@
             <i class="fs-2 text-warning mdi mdi-chart-bubble p-2"></i>
             Bubble icon looks nice but what could it be used for?
           </div>
-          <div>
+          <div class="pb-3">
             <i class="fs-2 text-warning mdi mdi-lightning-bolt-circle p-2"></i>
             A lightning icon to really define our power
           </div>
@@ -191,17 +191,8 @@
   <section>
     <div class="container-fluid bg-secondary">
       <div class="row py-5">
-        <div class="col-4 text-center">
-          <div class="card shadow p-3 m-5">
-            <div class="text-body-emphasis fst-italic py-1">
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, delectus!"
-            </div>
-            <div class="text-primary py-2">
-              - review by Mark Ohnsman
-            </div>
-          </div>
-        </div>
-        <div class="col-4 text-center">
+
+        <div class="col-12 d-md-none text-center">
           <div class="card shadow p-3">
             <div class="text-warning fs-1 d-inline-block text-center pb-3">
               <span class="mdi mdi-star-circle"></span>
@@ -217,7 +208,44 @@
             </div>
           </div>
         </div>
-        <div class="col-4 text-center">
+        <!-- Mobile View Big Card above ^-->
+
+
+        <!-- Small Card 1-->
+        <div class="col-12 col-md-4 text-center">
+          <div class="card shadow p-3 m-5">
+            <div class="text-body-emphasis fst-italic py-1">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, delectus!"
+            </div>
+            <div class="text-primary py-2">
+              - review by Mark Ohnsman
+            </div>
+          </div>
+        </div>
+        <!-- Small Card 1-->
+
+        <!-- Desktop View Big Card below -->
+
+
+        <div class="col-md-4 d-none d-md-block text-center">
+          <div class="card shadow p-3">
+            <div class="text-warning fs-1 d-inline-block text-center pb-3">
+              <span class="mdi mdi-star-circle"></span>
+              <span class="mdi mdi-star-circle"></span>
+              <span class="mdi mdi-star-circle"></span>
+            </div>
+            <div class="fst-italic">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quisquam animi error architecto
+              inventore iste! Perferendis distinctio iure atque temporibus!"
+            </div>
+            <div class="text-primary py-4">
+              - review by Oslo
+            </div>
+          </div>
+        </div>
+
+        <!-- Small Card 2-->
+        <div class="col-12 col-md-4 text-center">
           <div class="card shadow p-3 m-5">
             <div class="text-body-emphasis fst-italic py-1">
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, minima!"
@@ -227,10 +255,34 @@
             </div>
           </div>
         </div>
+        <!-- Small Card 2-->
       </div>
     </div>
   </section>
 
+  <!-- SECTION the map. The smallest section! -->
+  <section>
+    <div class="container-fluid map-section"></div>
+  </section>
+
+  <!-- SECTION the about links -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+
+        </div>
+
+        <div class="col-4">
+
+        </div>
+        <div class="col-4">
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

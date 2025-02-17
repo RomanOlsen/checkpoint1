@@ -39,4 +39,11 @@ header {
   min-height: 5em;
 }
 
+.map-section {
+  background-image: url(https://cdn.prod.website-files.com/5c29380b1110ec92a203aa84/66e5ce469b48938aa34d8684_Google%20Maps%20-%20Compressed.jpg);
+  background-size: fill;
+  min-height: 15vh;
+  background-position: center;
+}
+
 /* Was testing something, never used it ^ */
